@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "QuestionsForGirls",
-    "slug": "Question List",
+    "slug": "QuestionList",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ivan41.QuestionList"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5341652a-7c1a-4521-b9ad-12623b559fe6"
+      }
     }
   }
 }
